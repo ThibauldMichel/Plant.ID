@@ -12,7 +12,7 @@ H2020-MSCA-ITN-2017 Plant.ID 		 Project No. 765000
 
 
 
-## Plant.ID.  Molecular Identification of Plants 
+
 
 # Pipeline for assessing heterozygosity from Hyb-Seq data 
 
