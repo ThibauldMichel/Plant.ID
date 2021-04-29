@@ -1,12 +1,12 @@
 # Plant.ID project ESR11: Is mutational meltdown a threat to the mega diverse genus Begonia?
 
-### PhD fellow Thibauld Michel  
+- PhD fellow Thibauld Michel  
 
-### Host Royal Botanic Garden Edinburgh   
+- Host Royal Botanic Garden Edinburgh   
 
-### Supervisor Catherine Kidner   
+- Supervisor Catherine Kidner   
 
-### Co-supervisors Andrew Hudson, Nina Rønsted   
+- Co-supervisors Andrew Hudson, Nina Rønsted   
 
 
 
