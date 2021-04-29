@@ -14,13 +14,13 @@ H2020-MSCA-ITN-2017 Plant.ID 		 Project No. 765000
 # Pipeline for assessing heterozygosity from Hyb-Seq data 
 
 
-# 1. Summary
+## 1. Summary
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project's purpose is to check the variation of genetic health in endemic begonia populations over time. The allele diversity within different populations will be linked to their genetic health for conservation purposes. We will assess if a single specimen can provide an estimation of the allelic variation at a population-level. The bioinformatic pipeline will be used as well to confirm the identity of New-Guinean single specimens and follow their evolutionary history, and to track the introgression of Socotran alleles in horticultural varieties of winter flowering Begonia.
 
 
 
-# 2. Purpose
+## 2. Purpose
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Begonia is one of the ten largest genera [(Frodin 2004)](https://www.zotero.org/google-docs/?0NpAwE) with the 2,000th species due to be described in early 2021. New species are published at a higher rate than in any other genus   [(Moonlight et al. 2018)](https://www.zotero.org/google-docs/?Ea5wDy). Correctly identifying species and understanding the relationships between them is therefore a moving target.
 
@@ -32,7 +32,7 @@ H2020-MSCA-ITN-2017 Plant.ID 		 Project No. 765000
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We have also developed a side-project analysing the contribution of alleles from the rare B. socotrana to horticultural varieties of winter flowering Begonia. We will use the pipeline and the list of Socotran SNPs we have developed to search for introgressed Begonia socotrana alleles in the hybrid genomes. We hope to place the original specimen collected by Sir Isaac Bayley Balfour in 1880, and used for the groundbreaking “Gloire de Lorraine'' hybrids in the context of B. socotrana populations.  We will also identify if some of the allelic diversity lost from B. socotrana natural populations over the past 140 years has been retained in the horticultural varieties.
 
-# 3. Material and methods
+## 3. Material and methods
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Begonia samples were collected from silica-dried specimens for present-day populations and herbarium sheets capsule for historical specimens. Genomic libraries were made from extracted DNA , and Hyb-Seq RNA baits designed by Dr. Catherine Kidner have been used to select the library reads matching the bait set following the protocols of [(Nicholls et al. 2015)](https://www.zotero.org/google-docs/?S4MrcL). The baits were designed on the transcriptome of B. luzhaiensis, and a limited amount of B. conchifolia sequences and match single copy key developmental genes, differentially expressed genes and neutral genes. The selected libraries have been amplified and sequenced with an Illumina NovaSeq 6000.
 
@@ -53,7 +53,7 @@ Furthermore, the Hyb-Seq reads have been aligned to the *B. conchifolia* plastid
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The present stage of the project is to discriminate paralogs from orthologs using homemade scripts. The mapping population will be used to check the result using the expected allele frequency ratios of hybrids F1 and Backcross. The homemade scripts are based on detecting loci with high heterozygosity levels, which might indicate paralogy. A consensus sequence of the orthologs and paralogs haplotypes are then produced using a phasing tool. 
 
 
-# 4. Results
+## 4. Results
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Hyb-Seq dataset has been submitted to a series of tests to assess the efficiency of the target capture and library amplification process. Due to several technical  issues involving target capture, over-amplification of libraries post capture, and to the problematic sequences of several target capture baits, 11% of the reads on average were mapped to the reference bait set. 
 
@@ -71,7 +71,7 @@ Furthermore, the Hyb-Seq reads have been aligned to the *B. conchifolia* plastid
 
 
 
-# 5. Litterature
+## 5. Litterature
 
 
 [Bryc, Katarzyna, Nick Patterson, and David Reich. 2013. ‘A Novel Approach to Estimating Heterozygosity from Low-Coverage Genome Sequence’. ](https://www.zotero.org/google-docs/?Ddciwq)[*Genetics*](https://www.zotero.org/google-docs/?Ddciwq)[* 195 (2): 553–61. https://doi.org/10.1534/genetics.113.154500.](https://www.zotero.org/google-docs/?Ddciwq)
